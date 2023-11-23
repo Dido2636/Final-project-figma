@@ -1,0 +1,215 @@
+
+
+@media screen and (min-width: 1440px) {
+  .tittle-services,
+  .tittle-stories,
+  .tittle-elevate,
+  .tittle-contact,
+  .tittle-updated {
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+  }
+  
+
+  .barreheader {
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 109px;
+  margin: 30px 0px 23px 81px;
+  display: flex;
+  gap: 90%;
+  justify-content: center;
+  }
+  
+  /* Section Visual  */
+  
+  .visual {
+  width: 100%;
+  height: 632px;
+  margin-bottom: 106px;
+  }
+
+  .box-visual {
+    height: auto;
+  }
+
+  .title-visual {
+  font-size: 52px;
+  width: 561px;
+  }
+  
+    .woman {
+      width: 531px;
+      height: 576px;
+      transform: translate(32px, 20px);
+    }
+  
+    /* Section Elevate Your brand */
+
+    .textbrand{
+        display: flex;
+        align-items: center;
+    }
+
+    .paragraphe1{
+      padding-top: 35px;
+    }
+
+    .paragraphe2 {
+      font-size: 20px;
+  }
+
+/* Section Happy Stories */
+
+.box-stories {
+  align-items: start;
+  justify-content: start;
+}
+
+h4{
+  text-align: start;
+}
+
+.cardstories {
+  width: 970px;
+  height: 383px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgstories {
+  padding: 25px;
+  margin-top: 0px;
+}
+  
+/* Our Service */
+.services {
+background: var(--blue);
+height: 1102px;
+margin-bottom: 130px;
+}
+  
+.tittle-services {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container-card {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-column-gap: 30px;
+grid-row-gap: 50px;
+}
+  
+.imgcard {
+width: 270px;
+height: 320px;
+}
+  
+.btn-all {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.wraper:nth-child( n + 5) {
+display: block !important;
+}
+
+.btn-request {
+display: block;
+}
+
+.btn-more {
+display: none;
+}
+
+.btn-less {
+display: none;
+}
+  
+/* Section Stay Updated */
+
+.updated{
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+.cardupdated{
+display: flex;
+flex-direction: row;
+column-gap: 30px;
+}
+
+.card-one:nth-child(1) {
+ display: block;
+}
+
+.card-one:nth-child(2) {
+display: block;
+}
+
+.card-one:nth-child(3) {
+display: block;
+}
+
+.card-one:nth-child(4) {
+display: block;
+}
+
+
+/* Section happy Stories */
+
+.cardstories {
+width: 970px;
+height: 383px;
+margin-top: 60px;
+display: flex;
+border-radius: 15px;
+}
+
+      
+/* Section Contact Us */
+
+.infos-container {
+flex-direction: row;
+margin-bottom: 160px;
+height: 568px;
+}
+
+.infos{
+display: flex;
+flex-direction: column;
+gap: 63px;
+margin-left: 5%;
+margin-bottom: 60px;
+}
+
+.gdv{
+display: flex;
+flex-direction: column;
+gap:18px
+}
+
+
+/* Section Footer */
+
+footer{
+  padding: 60px 135px;
+}
+
+.down{
+height: 382px;
+padding: 60px 135px;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr ;
+grid-template-areas:
+        "footer-one footer-four footer-contact footer-two";
+    justify-content: center;
+    }
+
+
+}
