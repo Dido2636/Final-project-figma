@@ -208,6 +208,7 @@
       height: auto;
       transform: translateY(50px);
       padding: 40px;
+      gap: 0px;
 
     }
     label {
